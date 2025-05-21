@@ -1,10 +1,10 @@
 package browser
 
 import (
+	"browsertools/log"
+	"browsertools/pkg/errors"
 	"context"
 	"sync/atomic"
-	"testbrowser/log"
-	"testbrowser/pkg/errors"
 
 	"github.com/playwright-community/playwright-go"
 )

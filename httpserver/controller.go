@@ -1,13 +1,13 @@
 package httpserver
 
 import (
+	"browsertools/httpserver/model"
+	"browsertools/pkg/browser"
+	"browsertools/pkg/errors"
+	"browsertools/pkg/response"
+	"browsertools/pkg/xgin"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"testbrowser/httpserver/model"
-	"testbrowser/pkg/browser"
-	"testbrowser/pkg/errors"
-	"testbrowser/pkg/response"
-	"testbrowser/pkg/xgin"
 )
 
 type APIController struct {

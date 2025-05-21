@@ -1,6 +1,6 @@
 package response
 
-import "testbrowser/pkg/errors"
+import "browsertools/pkg/errors"
 
 const SuccessCode = 200
 

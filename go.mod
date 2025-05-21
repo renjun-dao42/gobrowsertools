@@ -1,4 +1,4 @@
-module testbrowser
+module browsertools
 
 go 1.24
 

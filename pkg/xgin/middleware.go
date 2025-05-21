@@ -1,6 +1,10 @@
 package xgin
 
 import (
+	"browsertools/log"
+	"browsertools/pkg/errors"
+	"browsertools/pkg/response"
+	"browsertools/pkg/xgin/timeout"
 	"bytes"
 	"fmt"
 	"net/http"
@@ -8,10 +12,6 @@ import (
 	"os"
 	"runtime"
 	"strconv"
-	"testbrowser/log"
-	"testbrowser/pkg/errors"
-	"testbrowser/pkg/response"
-	"testbrowser/pkg/xgin/timeout"
 	"time"
 
 	"github.com/gin-gonic/gin"

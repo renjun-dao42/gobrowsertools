@@ -1,7 +1,7 @@
 package xgin
 
 import (
-	"testbrowser/pkg/errors"
+	"browsertools/pkg/errors"
 	"time"
 
 	"github.com/gin-gonic/gin"

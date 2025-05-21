@@ -1,10 +1,10 @@
 package httpserver
 
 import (
+	"browsertools/pkg/response"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"testbrowser/pkg/response"
 )
 
 type Server struct {

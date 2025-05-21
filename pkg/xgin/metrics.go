@@ -1,8 +1,8 @@
 package xgin
 
 import (
+	"browsertools/pkg/errors"
 	"strconv"
-	"testbrowser/pkg/errors"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

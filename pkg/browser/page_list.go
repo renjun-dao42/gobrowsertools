@@ -1,9 +1,9 @@
 package browser
 
 import (
+	"browsertools/log"
 	"github.com/playwright-community/playwright-go"
 	"sync"
-	"testbrowser/log"
 	"time"
 )
 

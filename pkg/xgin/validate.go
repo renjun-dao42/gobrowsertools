@@ -1,11 +1,11 @@
 package xgin
 
 import (
+	"browsertools/log"
+	"browsertools/pkg/errors"
 	"context"
 	"encoding/json"
 	"regexp"
-	"testbrowser/log"
-	"testbrowser/pkg/errors"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

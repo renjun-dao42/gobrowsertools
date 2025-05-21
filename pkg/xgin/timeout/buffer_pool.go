@@ -1,9 +1,9 @@
 package timeout
 
 import (
+	"browsertools/pkg/errors"
 	"bytes"
 	"sync"
-	"testbrowser/pkg/errors"
 )
 
 // BufferPool is Pool of *bytes.Buffer

@@ -1,11 +1,11 @@
 package browser
 
 import (
+	"browsertools/log"
 	"context"
 	"fmt"
 	"strconv"
 	"sync"
-	"testbrowser/log"
 	"time"
 
 	"github.com/playwright-community/playwright-go"
